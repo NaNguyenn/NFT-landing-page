@@ -1,0 +1,39 @@
+.footerMiddle {
+    max-width: 90%;
+    margin: auto;
+
+    .footerMiddleRight {
+        width: calc(100%/3);
+        gap: 1rem;
+
+        .footerMiddleRightTitle {
+            font-weight: 700;
+        }
+
+        .footerMiddleRightContent {
+            font-weight: 500;
+        }
+
+        .footerMiddleRightForm {
+            height: 2rem;
+            width: 19rem;
+            border: 1px solid var(--greenPrimary);
+            background-color: #A3DFBE;
+
+            .footerMiddleRightFormInput {
+                background-color: #A3DFBE;
+                border: none;
+                flex: 3;
+                margin: 0.5rem;
+            }
+
+            .footerMiddleRightFormButton {
+                flex: 1;
+                padding: 0.5 2rem;
+                font-weight: 500;
+                font-size: 0.75rem;
+                background-color: var(--greenPrimary);
+            }
+        }
+    }
+}

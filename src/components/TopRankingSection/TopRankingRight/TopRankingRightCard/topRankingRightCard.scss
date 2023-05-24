@@ -1,0 +1,57 @@
+.topRankingRightCard {
+    align-items: center;
+    gap: 1rem;
+
+    .topRankingRightCardIndex {
+        font-weight: 700;
+        font-size: 1.5rem;
+    }
+
+    .topRankingRightCardImage {
+        height: 3.75rem;
+        aspect-ratio: 1;
+        border-radius: 9999px;
+    }
+
+    .topRankingRightCardContent {
+
+        .topRankingRightCardTitle {
+            font-weight: 500;
+            align-items: center;
+            gap: 1rem;
+
+            .verifiedIcon {
+                height: 1rem;
+            }
+        }
+
+        .topRankingRightCardSubtitle {
+            align-items: center;
+            gap: 2rem;
+
+            .topRankingRightCardSubtitleLeft {
+                align-items: center;
+                gap: 0.5rem;
+                font-weight: 600;
+                font-size: 0.75rem;
+
+                .ethIcon {
+                    height: 1.5rem;
+                }
+            }
+
+            .topRankingRightCardSubtitleRight {
+                font-weight: 600;
+                font-size: 1.25rem;
+            }
+
+            .green {
+                color: #14C8B0;
+            }
+
+            .red {
+                color: #FF002E;
+            }
+        }
+    }
+}

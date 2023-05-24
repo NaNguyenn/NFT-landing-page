@@ -1,0 +1,12 @@
+@import url('./common/styles/commonClasses.scss');
+@import url('./common/styles/variables.scss');
+
+body {
+    background-color: var(--backgroundPrimary);
+}
+
+main {
+    max-width: 90%;
+    margin: auto;
+    border-top: 0.5px solid #D8D7D7;
+}

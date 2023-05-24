@@ -1,0 +1,61 @@
+.topRankingMiddleCard {
+    height: 30%;
+    gap: 1rem;
+    align-items: center;
+
+    .topRankingMiddleCardImageLarge {
+        width: 45%;
+        aspect-ratio: 1;
+    }
+
+    .topRankingMiddleCardContent {
+        width: 50%;
+        gap: 0.5rem;
+
+        .topRankingMiddleCardTitle {
+            font-size: 1.25rem;
+            font-weight: 700;
+            align-items: center;
+            gap: 1rem;
+
+            .verifiedIcon {
+                height: 1rem;
+            }
+        }
+
+        .topRankingMiddleCardInfo {
+            align-items: center;
+            gap: 0.5rem;
+
+            .topRankingMiddleCardImageSmall {
+                height: 2rem;
+                aspect-ratio: 1;
+                border-radius: 9999px;
+            }
+
+            .topRankingMiddleCardInfoLeft {
+                align-items: center;
+                font-weight: 700;
+                font-size: 0.75rem;
+                color: var(--greenPrimary);
+                gap: 0.25rem;
+
+                .ethIcon {
+                    height: 0.8rem;
+                }
+            }
+
+            .topRankingMiddleCardInfoRight {
+                color: #757575;
+                font-size: 0.8rem;
+                font-weight: 400;
+            }
+        }
+
+        .topRankingMiddleCardButton {
+            font-weight: 400;
+            font-size: 0.8rem;
+            margin-top: 0.5rem;
+        }
+    }
+}

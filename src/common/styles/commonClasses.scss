@@ -1,0 +1,22 @@
+.center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.flex {
+    display: flex;
+}
+
+.flexCol {
+    display: flex;
+    flex-direction: column;
+}
+
+.roundedBorder {
+    border-radius: 0.75rem;
+}
+
+.hidden {
+    display: none;
+}

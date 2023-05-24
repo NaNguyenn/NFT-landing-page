@@ -1,0 +1,47 @@
+.exploreCard {
+    flex: 1 calc(20% - 3rem);
+    border: 0.3px solid #ADADAD;
+    padding: 0.75rem;
+    font-size: 0.75rem;
+
+    .exploreCardHeader {
+        align-items: center;
+        gap: 0.5rem;
+
+        .exploreCardImageSmall {
+            width: 1.5rem;
+            aspect-ratio: 1;
+            border: 0.25rem solid white;
+            border-radius: 9999px;
+        }
+
+        .exploreCardHeaderText {
+            font-weight: 500;
+        }
+
+        .verifiedIcon {
+            width: 0.75rem;
+        }
+    }
+
+    .exploreCardImageLarge {
+        width: 100%;
+        aspect-ratio: 1;
+        margin: 0.5rem 0;
+    }
+
+    .exploreCardContent {
+        font-weight: 400;
+
+        .exploreCardContentTitle {
+            font-weight: 700;
+        }
+
+        .exploreCardContentSubtitle {
+            em {
+                font-weight: 700;
+                margin-right: 0.5rem;
+            }
+        }
+    }
+}

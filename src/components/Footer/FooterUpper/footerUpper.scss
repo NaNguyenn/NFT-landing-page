@@ -1,0 +1,37 @@
+.footerUpper {
+    font-weight: 700;
+    font-size: 1.75rem;
+    align-items: center;
+    max-width: 100%;
+    margin: 6rem 10% 0;
+    padding: 1.5rem 0;
+
+    .footerUpperLeft {
+        width: calc(100%/3);
+
+        .downloadIcons {
+            .downloadIcon {
+                height: 1.75rem;
+            }
+        }
+    }
+
+    .footerUpperMiddle {
+        width: calc(100%/3);
+        justify-content: center;
+
+        .footerQR {
+            max-width: 13rem;
+        }
+    }
+
+    .footerUpperRight {
+        width: calc(100%/3);
+
+        .socialIcons {
+            .socialIcon {
+                width: 2rem;
+            }
+        }
+    }
+}

@@ -1,0 +1,12 @@
+.footerMiddleColumn {
+    width: calc(100%/6);
+    gap: 0.5rem;
+
+    .footerMiddleColumnTitle {
+        font-weight: 700;
+    }
+
+    .footerMiddleColumnItem {
+        font-weight: 500;
+    }
+}

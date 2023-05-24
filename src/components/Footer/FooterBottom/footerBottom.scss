@@ -1,0 +1,14 @@
+.footerBottom {
+    max-width: 90%;
+    margin: auto;
+    font-weight: 400;
+    font-size: 0.75rem;
+    justify-content: space-between;
+    padding: 1rem 0;
+
+    .footerBottomLeft {}
+
+    .footerBottomRight {
+        gap: 2rem;
+    }
+}

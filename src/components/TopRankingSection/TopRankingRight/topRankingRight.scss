@@ -1,0 +1,18 @@
+.topRankingRight {
+    flex: 0 1 30%;
+    gap: 1.5rem;
+
+    .topRankingRightTitle {
+        font-weight: 700;
+        font-size: 1.25rem;
+    }
+
+    .topRankingRightSubtitle {
+        font-weight: 700;
+        color: #3D00B7;
+    }
+
+    .topRankingRightList {
+        gap: 1.5rem;
+    }
+}

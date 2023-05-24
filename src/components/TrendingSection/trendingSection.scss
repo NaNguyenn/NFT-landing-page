@@ -1,0 +1,20 @@
+.trendingSection {
+    max-width: 100%;
+    margin-left: 5%;
+
+    .trendingSectionTitle {
+        em {
+            color: var(--greenPrimary);
+        }
+
+        .dropdownIcon {
+            filter: invert(40%) sepia(100%) saturate(1458%) hue-rotate(120deg) brightness(92%) contrast(102%);
+            width: 2rem;
+            margin-left: 1rem;
+        }
+    }
+
+    .trendingSectionShowcase {
+        gap: 1rem;
+    }
+}
